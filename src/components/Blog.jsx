@@ -9,7 +9,7 @@ const Blog = () => {
 
     useEffect(()=>{
 
-        fetch("http://localhost:8000/az/api/posts")
+        fetch("http://195.26.245.27/az/api/posts")
         .then((response) => {
           if (!response.ok) {
             throw new Error("Veri çekilirken hata oluştu.");
