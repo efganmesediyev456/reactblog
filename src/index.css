@@ -1,0 +1,23 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+li{
+  list-style: none;
+}
+
+.loader{
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 100%;
+  margin:40px auto;
+}

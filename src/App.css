@@ -1,0 +1,9 @@
+body{
+  overflow-x: hidden;
+}
+.loader{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 100%;
+}
